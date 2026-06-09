@@ -1,12 +1,11 @@
 # Solar Thermal Reflector Simulation
 
-This repository contains a MATLAB script that models and analyzes a dual parabolic reflector system with a diffraction grating for enhanced solar thermal energy conversion.
+MATLAB model of a dual parabolic reflector with a diffraction grating for solar concentration analysis.
 
-## Files
-- `dual_parabolic_calculations_extended.m`: Main script performing power calculations, efficiency modeling, and sensitivity analysis.
+Models the optical behaviour of a two-stage reflector system: a primary parabolic collector focuses incoming solar radiation onto a secondary reflector fitted with a diffraction grating, which redistributes spectral bands for improved thermal or photovoltaic efficiency. Built to explore whether cheap optical components could substitute for expensive multi-junction PV cells in a concentrated solar setup.
 
-## License
-CC BY 4.0
+The modelling shows that chromatic dispersion from the grating works against broadband solar capture, which is why this approach lost out commercially when silicon module costs dropped. The sim makes that failure mode visible and quantifiable.
 
-## Related Paper
-See the accompanying preprint: *Advancing Solar Thermal Efficiency* [DOI from Zenodo here]
+## Run
+
+Open `main.m` in MATLAB R2021a or later and run. No toolboxes required beyond base MATLAB.
